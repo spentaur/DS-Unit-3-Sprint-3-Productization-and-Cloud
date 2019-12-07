@@ -1,4 +1,6 @@
-# Module 1
+# [twittoff repo](https://github.com/spentaur/twittoff-app)
+
+## Module 1
 - What went well (in the context of working on the assignment) today?
     - I haven't ever used flask, but a lot of the concepts are very familiar
      to me so it came pretty easy.
@@ -12,7 +14,7 @@
      readable than the orm i am used to.
      
 ----
-# Module 2
+## Module 2
 - What went well (in the context of working on the assignment) today?
     - I was able to get all the tweets from a user and embed them and save
      them into the sqlite database.
