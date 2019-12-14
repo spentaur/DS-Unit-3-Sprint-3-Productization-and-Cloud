@@ -41,7 +41,7 @@ def refresh():
     <script>
         setTimeout("location.href = '/';",3000);
     </script>
-    Data refreshed! redirecting back to homepage"""
+    <h2>Data refreshed!</h2> redirecting back to homepage...."""
 
 
 @APP.route('/')
