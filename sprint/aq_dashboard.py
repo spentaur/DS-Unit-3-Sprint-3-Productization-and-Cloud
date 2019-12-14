@@ -37,7 +37,11 @@ def refresh():
     records = process_results()
     save_observations(records)
     DB.session.commit()
-    return 'Data refreshed!'
+    return """
+    <script>
+        setTimeout("location.href = '/';",3500);
+    </script>
+    Data refreshed! redirecting back to homepage"""
 
 
 @APP.route('/')
