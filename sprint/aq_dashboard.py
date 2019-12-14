@@ -39,7 +39,7 @@ def refresh():
     DB.session.commit()
     return """
     <script>
-        setTimeout("location.href = '/';",3500);
+        setTimeout("location.href = '/';",3000);
     </script>
     Data refreshed! redirecting back to homepage"""
 
