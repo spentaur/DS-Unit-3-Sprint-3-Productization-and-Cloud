@@ -1,0 +1,2 @@
+FLASK_APP=aq_dashboard.py
+FLASK_ENV=development
